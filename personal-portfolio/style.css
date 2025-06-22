@@ -1,0 +1,160 @@
+/*my css style*/
+body {
+  background-color: #ade6f0;
+  font-family: "Outfit";
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  border-radius: 10px;
+}
+
+.leftbar {
+  display: block;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  margin: 10px;
+  /* height: 1500px; */
+  height: auto;
+  text-align: center;
+}
+
+hr {
+  height: 1px;
+  background-color: navy;
+  width: 90%;
+}
+.leftheader h3 {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.leftheader ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.leftheader ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.leftheader ul li a {
+  text-decoration: none;
+}
+
+.project {
+  display: block;
+}
+
+.project h3 {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.project ul {
+  list-style: none;
+  padding: 0px;
+}
+.project ul li {
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin: 1px 0px 1px 0px;
+  background-color: #d8cfcf;
+  /* border: 0.1px solid; */
+}
+.project ul li a {
+  text-decoration: none;
+}
+
+.experience h3 {
+  height: auto;
+}
+.work {
+  height: auto;
+  background-color: #d8cfcf;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.work .p3 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.work .p1 {
+  font-size: 16px;
+  color: darkblue;
+  margin-top: 1px;
+  padding-top: 5px;
+}
+
+.work .p2 {
+  font-size: 14px;
+  color: rgb(240, 73, 23);
+  margin-top: auto;
+  margin-bottom: 3px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.edu {
+  height: auto;
+  background-color: #d8cfcf;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+}
+.edu p {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.education h3 {
+  text-align: center;
+}
+.education ul {
+  padding-left: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.rev {
+  height: auto;
+  background-color: #d8cfcf;
+  padding: 2px 5px 2px 5px;
+}
+.teachers {
+  background-color: white;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.testi,
+.autor {
+  padding: 5px;
+}
+
+.autor {
+  color: rgb(240, 73, 23);
+  text-align: right;
+}
+
+.mainbar {
+  display: block;
+  /* border: 1px solid blue; */
+  width: 70%;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 600px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
