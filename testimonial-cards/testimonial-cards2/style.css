@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+}
+.container {
+  width: 70vw;
+  max-width: 1200px;
+  min-width: 20rem;
+  height: auto;
+  /* border: 1px solid gray; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 1rem;
+}
+h1 {
+  border: 1px solid gray;
+  border-radius: 14px;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* kartu pertama */
+
+.card-1 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  row-gap: 20px;
+}
+.card-1 .testi {
+  /* position: relative; */
+  padding: 1rem;
+  background-color: #111;
+  color: aliceblue;
+  border-radius: 14px;
+  /* height: 160px; */
+  height: auto;
+}
+.card-1 .testi p:first-child {
+  margin-bottom: 0.5rem;
+}
+
+/* .card-1 .testi p::after {
+  content: "";
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 50px;
+  top: 140px;
+  rotate: 45deg;
+  z-index: -1;
+  background-color: #111;
+} */
+.card-1 .person {
+  font-size: 1em;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-1 .person img {
+  width: 60px;
+  height: 60px;
+  margin-left: 1rem;
+  border-radius: 50%;
+}
+
+/* kartu kedua */
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border: 1px solid darkslategrey;
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  height: auto;
+}
+
+.card-2 .person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-2 .person img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* kartu ketiga */
+.card-3 {
+  display: grid;
+  grid-column: 0 / span 2;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 10px;
+  /* padding-right: 1rem; */
+}
+
+.card-3 img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.card-3 div {
+  padding: 1rem;
+  background-color: gray;
+  color: aliceblue;
+  /* font-size: 0.8em; */
+  border-radius: 14px;
+  /* height: 150px;
+  text-align: end; */
+}
+
+/* kartu ke 4 */
+
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+  grid-column: 1 / span 2;
+  border: 1px solid darkslategray;
+  border-radius: 14px;
+  padding: 1rem;
+}
+.card-4 p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.card-4 .pict {
+  /* display: flex; */
+  text-align: center;
+  gap: 1rem;
+}
+.card-4 .pict img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.slider-person {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.person-pic-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.slider-person img:first-of-type,
+.slider-person img:last-of-type {
+  scale: 0.8;
+  opacity: 0.4;
+}
+
+.slider-controls {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  margin-top: 10px;
+}
+.slider-controls .prev,
+.slider-controls .next {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #333;
+}
+.prev::before {
+  content: "❮";
+}
+.next::before {
+  content: "❯";
+}
+.person-name {
+  font-weight: bold;
+}
