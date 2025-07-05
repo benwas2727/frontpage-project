@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Accessible Form UI</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1>Accessible Form UI</h1>
+		<div class="container">
+			<!-- bagian form -->
+			<div class="fill-form">
+				<form action="#" method="post">
+					<div class="form-grup">
+						<label for="full-name">Full Name</label>
+						<input
+							type="text"
+							id="full-name"
+							name="full-name"
+							placeholder="your full name"
+						/>
+					</div>
+					<div class="form-grup">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="your active email"
+						/>
+					</div>
+					<div class="form-grup password">
+						<label for="password">Password</label>
+						<input
+							type="password"
+							id="password"
+							name="password"
+						/>
+						<button type="button ">
+							<!--class=toggle-btn-->
+							<img
+								src="hide2.png"
+								alt="Toggel visi"
+							/>
+						</button>
+					</div>
+
+					<!-- confirm password -->
+					<div class="form-grup password">
+						<label for="confirm-password"
+							>Confirm Password</label
+						>
+						<!-- <br /> -->
+						<input
+							type="password"
+							id="confirm-password"
+							name="confirm-password"
+						/>
+						<button type="button">
+							<!--class=toggle-btn-->
+							<img src="hide2.png" alt="" />
+						</button>
+					</div>
+
+					<!-- kotak password -->
+					<!-- tombol update profile -->
+
+					<button type="Submit" class="btn-upd">
+						Update Profile
+					</button>
+				</form>
+			</div>
+
+			<!-- bagian summary -->
+			<div class="summary">
+				<div class="progress">
+					<p>Progress</p>
+					<div class="progress-bar">
+						<div class="progress-fill">
+							<p>65%</p>
+						</div>
+					</div>
+				</div>
+				<div class="completeness">
+					<p class="titel">Profile Completeness</p>
+					<ul>
+						<li class="coret">Created Account</li>
+						<li class="coret">
+							Update Roadmap Progress
+						</li>
+						<li class="coret">Setup Public Profile</li>
+						<li>Complete your first project</li>
+						<li>Invite your friend</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
